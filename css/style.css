@@ -109,4 +109,17 @@ header{
     margin-bottom: 20px;
     vertical-align: middle;
 }
+.container{
+    width: 60%;
+    height: 600px;
+    display: flex;
+    background-color: coral;
+    gap: 50px;
+}
+.box{
+    width: calc(100% / 3);
+    height: 600px;
+    border: 1px solid black;
+}
+
 /* FOOTER */
