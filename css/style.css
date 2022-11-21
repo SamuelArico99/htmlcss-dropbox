@@ -50,7 +50,7 @@ header{
     height: 50%;
     font-size: 70px;
     display: flex;
-    justify-content: center;
+    text-align: center;
     align-items: center;
     background-color: aqua;
 }
