@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
 /* HEADER */
 header{
     background-color: white;
