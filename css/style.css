@@ -44,6 +44,7 @@ header{
 }
 .jumbotrone > h1{
     width: 60%;
+    height: 50%;
     font-size: 70px;
     display: flex;
     justify-content: center;
@@ -56,5 +57,17 @@ header{
     background-color: coral;
     width: 60%;
     height: 50%;
+    position: relative;
+}
+.main-box1, .main-box2{
+    width: 50%;
+    height: 100%;
+    background-color: darkgray;
+    border: 1px solid black;
+}
+.main-box2{
+    position: absolute;
+    top: 40px;
+    right: 0;
 }
 /* FOOTER */
