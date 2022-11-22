@@ -89,7 +89,7 @@ header{
 .main-footer-container{
     background-color: coral;
     width: 70%;
-    height: 50%;
+    min-height: 50%;
     display: flex;
     position: relative;
 }
@@ -218,6 +218,7 @@ footer{
     background-color: black;
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -226,6 +227,13 @@ footer{
     width: calc(100% / 5);
     height: 600px;
     background-color: blue;
-    justify-content: center;
-    align-items: center;
+}
+.line{
+    width: 70%;
+    display: flex;
+}
+.line > hr{
+    margin-top: 20px;
+    width: 20%;
+    align-self: flex-start;
 }
