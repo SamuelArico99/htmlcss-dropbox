@@ -90,6 +90,7 @@ header{
     background-color: coral;
     width: 70%;
     height: 50%;
+    display: flex;
     position: relative;
 }
 .main-box1, .main-box2{
@@ -223,6 +224,7 @@ footer{
 .box-footer{
     border: 1px solid black;
     width: calc(100% / 5);
+    height: 600px;
     background-color: blue;
     justify-content: center;
     align-items: center;
