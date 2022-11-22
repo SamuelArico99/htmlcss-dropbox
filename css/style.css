@@ -36,6 +36,9 @@ body{
     margin-bottom: 0px;
     margin-top: 0px;
 }
+#operations > .container{
+    margin-bottom: 150px;
+}
 /* HEADER */
 header{
     background-color: white;
@@ -67,6 +70,7 @@ header{
 }
 .start{
     background-color: blue;
+    max-width: 250px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 20px;
@@ -90,27 +94,33 @@ header{
     font-size: 70px;
     display: flex;
     align-items: flex-end;
-    background-color: aqua;
 }
 .main-footer-container{
-    background-color: coral;
     width: 70%;
     min-height: 50%;
     display: flex;
     position: relative;
 }
 .main-box1, .main-box2{
-    width: 50%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: darkgray;
-    border: 1px solid black;
+    justify-content: space-between;
+
+}
+.main-box1{
+    width: 40%;
+    height: 100%;
+}
+.main-box2{
+    width: 60%;
+    min-height: 100%;
 }
 .main-box1 > p{
     margin-top: 40px;
-    margin-bottom: 40px;
     font-size: 20px;
+}
+.main-box1 > i{
+    font-size: 50px;
 }
 .main-box2{
     position: absolute;
