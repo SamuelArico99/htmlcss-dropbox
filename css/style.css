@@ -279,9 +279,17 @@ header{
 }
 .operation{
     width: calc(100% / 3);
-    height: 300px;
-    border: 1px solid black;
-    background-color: blue;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+.operation> img, h3, p {
+    width: 100%;
+}
+.operation> h3, p {
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 /* CUSTOMERS */
 #customers{
@@ -298,16 +306,33 @@ header{
     flex-wrap: wrap;
 }
 .big-box > div{
-    background-color: aqua;
     border: 1px solid black;
     width: calc(100% / 2);
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big-box > div > img{
+    width: 60%;
+    filter: invert(1);
+}
+.customer-design{
+    background-color: green;
+    border: 20px solid lightgreen;
+}
+.customer-arizona{
+    background-color: brown;
+}
+.customer-florida{
+    background-color: lightblue;
 }
 /* FREE-TRIAL */
 #free-trial{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: cornflowerblue;
 }
 #free-trial > .container{
     justify-content: space-between;
@@ -350,6 +375,6 @@ footer{
 }
 .line > hr{
     margin-top: 20px;
-    width: 20%;
+    width: 100%;
     align-self: flex-start;
 }
