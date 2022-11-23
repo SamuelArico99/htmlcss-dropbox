@@ -381,6 +381,11 @@ header{
     justify-content: center;
     align-items: center;
 }
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* FOOTER */
 footer{
     width: 100%;
