@@ -99,6 +99,7 @@ header{
 }
 .header-container > div:not(.logo):hover, .header-container2 > div:hover{
     border-bottom: 2px solid black;
+    cursor: pointer;
 }
 /* MAIN */
 /* JUMBOTRONE */
