@@ -59,6 +59,9 @@ a{
 .lightgray{
     color: lightgray;
 }
+.background-lightgray{
+    background-color: lightgray;
+}
 .blue{
     color: blue;
 }
@@ -299,21 +302,18 @@ header{
 }
 .big-box{
     width: calc(100vw / 3);
-    background-color: blue;
-    border: 1px solid black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .big-box > .customer-arizona, .customer-design, .customer-florida, .customer-topps, .customer-wordbicycle, .customer-hearts, .customer-lonely, .customer-clear{
-    border: 1px solid black;
     width: calc(100% / 2);
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.big-box > div > img{
+.big-box > .customer-arizona > img , .big-box > .customer-clear > img, .big-box > .customer-design > img , .big-box > .customer-hearts > img, .big-box > .customer-wordbicycle > img, .big-box > .customer-lonely > img, .big-box > .customer-florida > img, .big-box > .customer-topps > img{
     width: 60%;
     filter: invert(1);
 }
@@ -342,6 +342,18 @@ header{
 .customer-clear{
     background-color: yellow;
 }
+.customer-description{
+    width: 80%;
+    padding: 30px;
+}
+.customer-description > img{
+    width: 60%;
+    margin-bottom: 20px;
+}
+.customer-description > hr{
+    width: 20%;
+    margin-bottom: 40px;
+}
 /* FREE-TRIAL */
 #free-trial{
     display: flex;
@@ -353,7 +365,9 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
+#free-trial > .container > .title-container > h2{
+    color: brown;
+}
 #trial-button{
     background-color: lightgrey;
     padding-top: 7px;
