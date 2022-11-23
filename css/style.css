@@ -305,7 +305,7 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.big-box > div{
+.big-box > .customer-arizona, .customer-design, .customer-florida, .customer-topps, .customer-wordbicycle, .customer-hearts, .customer-lonely, .customer-clear{
     border: 1px solid black;
     width: calc(100% / 2);
     height: 300px;
@@ -326,6 +326,21 @@ header{
 }
 .customer-florida{
     background-color: lightblue;
+}
+.customer-topps{
+    background-color: red;
+}
+.customer-wordbicycle{
+    background-color: darkred;
+}
+.customer-hearts{
+    background-color: cornflowerblue;
+}
+.customer-lonely{
+    background-color: blue;
+}
+.customer-clear{
+    background-color: yellow;
 }
 /* FREE-TRIAL */
 #free-trial{
